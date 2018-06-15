@@ -1,0 +1,18 @@
+server:
+  port: 8084
+
+token:
+  auth:
+    host: http://localhost:8080/
+    url: token/getToken
+
+store:
+  host: http://localhost:8082/
+  poem:
+    url: poem/write
+  activity:
+    url: activity/handle/
+
+tags:
+  host: http://localhost:8083/
+  url: tags/getAll
